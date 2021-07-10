@@ -207,7 +207,7 @@ def main():
         handlers=[logging.StreamHandler(sys.stdout)],
     )
 
-    log_level = training_args.log_level
+    log_level = 20
     logger.setLevel(log_level)
     datasets.utils.logging.set_verbosity(log_level)
     transformers.utils.logging.set_verbosity(log_level)
