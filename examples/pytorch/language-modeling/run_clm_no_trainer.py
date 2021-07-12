@@ -35,7 +35,7 @@ from torch.utils.data.dataloader import DataLoader
 from tqdm.auto import tqdm
 
 import transformers
-from accelerate import Accelerator
+#from accelerate import Accelerator
 from transformers import (
     CONFIG_MAPPING,
     MODEL_MAPPING,
